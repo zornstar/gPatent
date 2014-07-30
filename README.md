@@ -1,6 +1,6 @@
 # gpatent
 
-nodejs module for downloading  google patents
+nodejs module for downloading google patents
 
 ## Installation
 
@@ -14,7 +14,6 @@ $ npm install gpatent
 
 ``` js
 var gPatent = require('google-patent');
-
 ```
 
 ### get (name, path)
@@ -29,5 +28,5 @@ gPatent.get('US1234567', '../patents') // downloads patent to ../patents
 
 ``` js
 gPatent.pull('US1234567') // downloads patent to process.cwd(), cited patents to prior_art_patents
-gPatent.get('US1234567', '..', 'prior') // downloads patent to .., cited patents to ../prior
+gPatent.pull('US1234567', '..', 'prior') // downloads patent to .., cited patents to ../prior
 ```
