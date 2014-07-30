@@ -2,8 +2,6 @@
 
 nodejs module for downloading  google patents
 
-[![build status](https://secure.travis-ci.org/mzorn/google-patent.png)](http://travis-ci.org/mzorn/google-patent)
-
 ## Installation
 
 This module is installed via npm:
